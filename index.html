@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang= "en-Us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Trivia Game </title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link rel= "stylesheet" type= "text/css" href="assets/style.css" > 
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+
+<body> 
+	<div class= "header">
+		<h1> Seinfeld Trivia !! </h1>
+	</div>
+
+	<div class= "wrapper">
+		
+		<div id= "timer" style= "padding: 10px; height: 50px; width: 100px; margin-left: 425px; border: 2px solid blue; font-size: 2.0rem; color: orange; background-color: white; border-radius: 50%; text-align: center; z-index: 1;"> </div>
+		<div class= "one">
+			<h3> Multiple Choice answer game </h3>
+			<div class= "question" style= "margin-left: 20px; color: orange; font-size: 1.5rem; line-height: 150%; text-shadow: 1px 1px white;"> </div>
+			<br>
+			<span class= "option" id= "answer1" style= "font-size: 1.2rem; color: orange; margin: 5px; padding: 10px; border: 2px solid orange; float: left; hover: blue;"></span>
+			<span class= "option" id= "answer2" style= "font-size: 1.2rem; color: orange; margin: 5px; padding: 10px; border: 2px solid orange; float: left;"></span>
+			<span class= "option" id= "answer3" style= "font-size: 1.2rem; color: orange; margin: 5px; padding: 10px; border: 2px solid orange; float: left;"></span>
+			<span class= "option" id= "answer4" style= "font-size: 1.2rem; color: orange; margin: 5px; padding: 10px; border: 2px solid orange; float: left;"></span>
+			<span id= "score" style= "font-size: 1.2rem; color: orange; margin: 5px; padding: 10px;  float: left; margin-left: 20px;"> </span>
+
+		</div>
+
+
+		<div class= "two">
+			<span id= "points" style= "color: white;"> </span>
+			<button class= "start"> Start </button>
+			<button class= "restart"> Restart </button>
+			<div id= "gif" style= "height: 50px; width: 50px; margin-left: 20px; z-index: 1; top: 50;">
+				<video id= "gif" src="https://media.giphy.com/media/bznNJlqAi4pBC/giphy.gif"></video>	</div>
+			</div>
+			
+		</div>
+
+		<footer> Games by Nate </footer>
+
+	</body>
+	<script type= "text/javascript" src="assets/app.js"> </script>
+	</html>
